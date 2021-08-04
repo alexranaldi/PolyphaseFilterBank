@@ -1,8 +1,9 @@
-/*
- * Alex Ranaldi alexranaldi@gmail.com
- * David Mittiga
+/*/*
+ * Author: David Mittiga  mittigadavid@gmail.com
+ * Published on Github by Alex Ranaldi  alexranaldi@gmail.com
  * License: MIT
  */
+
 
 #include "PolyPhaseFilterBank.hpp"
 #include <algorithm>

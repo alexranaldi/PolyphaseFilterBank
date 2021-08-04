@@ -1,6 +1,6 @@
 # PolyphaseFilterBank
 
-Polyphase Filter Bank implementation in C++ by David Mittiga
+Polyphase Filter Bank implementation in C++ by David Mittiga and published here in coordination with him.
 
 Usage is simple. Create the PFB (Polyphase Filter Bank) with the first input specifying data input length as log2(N). e.g., for 4096 samples, log2(4096) = 12. 
 The second argument specifies the filter order. 2x the number of channels is the minimum. Larger values result in sharper filters. 
