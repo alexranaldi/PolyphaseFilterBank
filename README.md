@@ -12,6 +12,7 @@ std::vector<std::complex<double>> timeData; // assume we have some vector of tim
 std::vector<std::complex<double>> freqData(timeVec.size(), 0);
 pfb->Iterate(timeData.data(), freqData.data());
 
-Screenshot of a real-time frequency domain display of amateur radio FT8 data using this code:
+Screenshot of a real-time frequency domain display of amateur radio FT8 data, built using this code:
 
+![Example Display using PFB](https://github.com/alexranaldi/PolyphaseFilterBank/blob/main/screenshots/real_time_freq.png?raw=true)
 
