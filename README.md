@@ -4,7 +4,7 @@ Polyphase Filter Bank implementation in C++ by David Mittiga
 
 Usage is simple. Create the PFB (Polyphase Filter Bank) with the first input specifying data input length as log2(N). e.g., for 4096 samples, log2(4096) = 12. 
 The second argument specifies the filter order. 2x the number of channels is the minimum. Larger values result in sharper filters. 
-The third argument specifies the scale factor. Suggested values are 1 and 2.
+The third argument specifies the scale factor. A value of 1 results in nominal unmodified filters. Larger values result in wider, overlapping filters, which is useful to remove scalloping loss, but results in more correlated output due to the overlap.
 
 ```
 auto pfb = std::make_unique<pd::PolyPhaseFilterBank>(12,13,1);
